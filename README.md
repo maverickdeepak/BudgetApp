@@ -4,6 +4,18 @@ README FILE:
 
 A: How to create Google App
 
+Prerequisites: 
+you need the following prerequisites:
+
+- PHP 5.4 or greater with the command-line interface (CLI) and JSON extension installed
+- The Composer dependency management tool
+- A Google account
+
+Install the Google Client Library
+composer require google/apiclient:^2.0
+
+A vendor folder will be download and connect autuload file to config file (Check config.php file)
+
 1. Open https://console.developers.google.com/
 
 2. On the navigation bar click on Add project button. 
@@ -28,7 +40,7 @@ A: How to create Google App
 
 12. Click on the Create button. A pop up will be fired. Copy the Client ID and Client Secret.
 
-Note: Client ID and Client Secret is sensitive. It will be used for creating the Google App
+Note: Client ID and Client Secret is sensitive. It will be used in config.php file.
 
 B: How App is Working
 
